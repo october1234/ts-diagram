@@ -24,7 +24,7 @@ CS = plt.contour(s_grid, t_grid, sigma_t, colors='gray', linestyles='dashed', le
 plt.clabel(CS, inline=1, fontsize=10, fmt='%.1f')
 plt.xlabel('Salinity (psu)')
 plt.ylabel('Temperature (°C)')
-plt.title('T-S Diagram')
+plt.title('T-S Diagram\\nContours represent σₜ = (Density - 1000kg/m³)')
 plt.grid(True, alpha=0.3)
 
 buf = io.BytesIO()
